@@ -4,6 +4,8 @@
 
 This web application is designed to maintain and track Equity positions based on a stream of trade transactions. The system ingests transactions with different actions (INSERT, UPDATE, CANCEL) and calculates the resulting positions for each security.
 
+![PositionManagemnet](https://github.com/user-attachments/assets/805c4e46-a276-49e4-8bad-184d67673ceb)
+
 ---
 
 ## Features
