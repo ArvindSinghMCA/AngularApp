@@ -1,0 +1,24 @@
+
+<p>Below is the current list of positions including their security codes and quantities. Negative quantities indicate a short position.</p>
+
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead style="background-color: #004080; color: white;">
+    <tr>
+      <th style="padding: 12px; text-align: left;">Security Code</th>
+      <th style="padding: 12px; text-align: right;">Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pos of positions" style="border-bottom: 1px solid #ddd;">
+      <td style="padding: 12px;">{{ pos.securityCode }}</td>
+      <td style="padding: 12px; text-align: right;"
+          [style.color]="pos.quantity < 0 ? 'red' : 'green'">
+        {{ pos.quantity }}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div *ngIf="!loading && !error && positions.length === 0" style="margin-top: 20px; font-style: italic;">
+  No positions found.
+</div>

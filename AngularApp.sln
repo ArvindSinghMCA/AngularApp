@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angularapp.client", "angularapp.client\angularapp.client.esproj", "{ED628527-E0B1-42A1-40E7-EC0D115B1877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularApp.Server", "AngularApp.Server\AngularApp.Server.csproj", "{AE2A4264-44D5-4A39-969C-7B837A2E5815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{ABFEE350-2D2E-4437-AEDC-B369004513FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularApi.IntegartionTest", "AngularApi.IntegartionTest\AngularApi.IntegartionTest.csproj", "{080898C9-D597-4553-AC70-29DAFF8987D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED628527-E0B1-42A1-40E7-EC0D115B1877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED628527-E0B1-42A1-40E7-EC0D115B1877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED628527-E0B1-42A1-40E7-EC0D115B1877}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED628527-E0B1-42A1-40E7-EC0D115B1877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED628527-E0B1-42A1-40E7-EC0D115B1877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED628527-E0B1-42A1-40E7-EC0D115B1877}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AE2A4264-44D5-4A39-969C-7B837A2E5815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2A4264-44D5-4A39-969C-7B837A2E5815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2A4264-44D5-4A39-969C-7B837A2E5815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2A4264-44D5-4A39-969C-7B837A2E5815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFEE350-2D2E-4437-AEDC-B369004513FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFEE350-2D2E-4437-AEDC-B369004513FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFEE350-2D2E-4437-AEDC-B369004513FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFEE350-2D2E-4437-AEDC-B369004513FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080898C9-D597-4553-AC70-29DAFF8987D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080898C9-D597-4553-AC70-29DAFF8987D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080898C9-D597-4553-AC70-29DAFF8987D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080898C9-D597-4553-AC70-29DAFF8987D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B323ECA9-5F47-45BA-99D2-56568F66A8EF}
+	EndGlobalSection
+EndGlobal
